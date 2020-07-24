@@ -1,0 +1,119 @@
+:root { 
+--text-color: white; 
+--background-color: gray; 
+--accent-color: aquamarine; 
+} 
+
+*{
+    box-sizing: border-box;
+}
+
+.action--button--contianer {
+	position: fixed;
+	bottom: 30px;
+	z-index: 999;
+	width: 20%;
+  background-color: aquamarine;
+  border-radius: 50px;
+  left: 40%;
+}
+
+.action--button--contianer a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 8px 12px;
+  padding-bottom: 25px;
+  color: black;
+}
+
+span {
+  vertical-align: baseline;
+}
+
+body{
+    margin:0;
+    font-family: 'Source Sans Pro';
+  
+}
+
+a{
+    text-decoration: none;
+     
+}
+ 
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.navbar_logo{
+    font-size: 24px;
+    color: var(--text-color);
+}
+
+.navbar_logo a{
+    color: var(--text-color);
+
+}
+.navbar_logo i{
+    color: var(--accent-color);
+}
+
+.navbar_mypage{
+    list-style: none;
+    color: var(--text-color);
+    display: flex;
+    padding-left: 0;
+    
+}
+
+.navbar_mypage a{
+    color: var(--text-color);
+  }
+.navbar_mypage li{
+    padding: 8px 12px;
+    
+}
+
+.navbar_mypage li:hover{
+    background-color: var(--accent-color);
+    border-radius: 4px;
+}
+
+.app {
+  padding: 10px;
+  display: flex;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.navigation--container {
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 8px 12px;
+}
+
+.navigation--container a {
+    color: black;
+    size: 30px;
+}
+
+.navigation--item a {
+  padding: 8px 12px;
+}
+
+.selected {
+  background-color: rgba(127, 255, 212, 0.377);
+  border-radius: 5px;
+}
